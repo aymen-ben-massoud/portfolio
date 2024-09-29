@@ -1,0 +1,125 @@
+
+.text > h1{
+  font-size: 70px;
+  width: 100px;
+  font-weight: 700;
+  color: white;
+letter-spacing:1px;
+  line-height: 1.1;
+display: flex;
+align-items: end;
+
+backdrop-filter: blur(10px); 
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.text > h1 > span{
+  color: white;
+}
+.text > h4{
+ color:white;
+}
+.text > p{
+  color: white;
+
+}
+
+.profileimg{
+  height: 500px;
+  width: 500px;
+}
+.profilebutton{
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
+   backdrop-filter: blur(30px);  
+  width: 250px!important;
+background:white;
+
+color: black;
+  border-radius: 20px;
+  padding: 5px;
+letter-spacing: 1px;
+  font-weight: 600;
+
+}
+.profilebutton:hover{
+ 
+  transition: 0.7s ease-in-out ;
+  opacity: 0.8;
+}
+
+
+.definitiontext{
+ 
+  font-weight: 700;
+  color: white;;
+letter-spacing:1px;
+  line-height: 1.1;
+  color: rgb(255, 255, 255);
+
+
+
+}
+.title{
+  font-weight: 700;
+  color: white;
+letter-spacing:1px;
+  line-height: 1.1;  
+}
+a{
+text-decoration: unset;
+
+}
+.blurdiv{
+backdrop-filter: blur(15px); 
+
+
+}
+.skillsdiv{
+  backdrop-filter: blur(15px); 
+width: 90%;
+}
+div{
+color: white;
+
+}
+b{cursor: pointer;}
+
+.img-fluid{
+  width: 350px;
+}
+.arrow{
+
+position: fixed;
+ bottom: 5%;
+ right: 5%;  
+    z-index: 99;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   text-align: center;
+    cursor: pointer;
+}
+.arrow > svg:hover{
+padding-bottom: 5px;
+}
+@media (max-width: 700px) {
+  .img-fluid{
+    width:fit-content;
+  }
+  .text > h1{
+    font-size: 65px;
+  }
+
+.text{
+  text-align: center;
+}
+.profileimg{
+  
+  height: 300px;
+  width:fit-content;
+}
+}
+
+

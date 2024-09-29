@@ -1,0 +1,16 @@
+
+
+<div class="video-container">
+  <video class="video-background" autoplay muted loop>
+    <source src="assets/grey-bg.mov" type="video/mp4" />
+   
+  </video>
+
+  <router-outlet> </router-outlet>
+  
+</div>
+
+<div [class.show]="close" class="navbardiv">
+<app-navbar >
+</app-navbar>
+</div>
